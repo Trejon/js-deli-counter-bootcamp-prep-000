@@ -21,7 +21,7 @@ function currentLine(x) {
     for (var i = 0; i < x.length; i++) {
   newLine += (i + 1) + "." + x[i] + ",";
     }
-    newLine = newLine.slice(0, line.length-2);
+    newLine = newLine.slice(0, newLine.length-2);
     return "The line is currently: " + newLine;
   }
 }
