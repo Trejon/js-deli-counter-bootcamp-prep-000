@@ -19,9 +19,9 @@ function currentLine(x) {
     return "The line is currently empty.";
   }else {
     for (var i = 0; i < x.length; i++) {
-  newLine += (i + 1) + " . " + x[i] + ",";
+  newLine += (i + 1) + ". " + x[i] + ",";
     }
     newLine = newLine.slice(0, newLine.length-2);
-    return " The line is currently: " +  newLine;
+    return "The line is currently: " +  newLine;
   }
 }
