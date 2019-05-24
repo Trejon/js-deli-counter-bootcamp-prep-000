@@ -16,7 +16,7 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i < katzDeliLine.length; i++) {
       newLine[i] = `${[i + 1]}. ${katzDeliLine[i]}`;
       }
-      str += newLine;
+      str += newLine.join ('.'); 
       return str;
   }
 }
