@@ -3,9 +3,14 @@ katzDeliLine.push(name);
 return "Welcome, " + name + ". You are number " +  katzDeliLine.length  + " in line.";
 }
 
-function nowServing(katzDeliLine) {
- if (katzDeliLine.length > 0) return `Currently serving ${katzDeliLine.shift(name)}. `;
-  else return "There is nobody waiting to be served!";
+function nowServing(x) {
+ if (x.length === 0) {
+   return "There is nobody waiting to be served!";
+ }else {
+   var name = x[]
+   x.splice(0,1);
+  return "Currently serving " + katzDeliLine.shift(name)}. `;
+ }
 }
 
 function currentLine(katzDeliLine) {
